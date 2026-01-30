@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -46,6 +46,10 @@ nav {
     font-weight: bold;
     color: var(--white);
 }
+.logo a {
+    color: #ffffff;
+    text-decoration: none;
+ }   
 
 .nav-links {
     display: flex;
@@ -111,6 +115,7 @@ p { margin-bottom: 1rem; font-size: 1.1rem; }
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     padding: 30px 30px;
     background-color: #ffffff
